@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 1em 10em;
+  position: fixed;
+  background: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: max-content;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.6em;
+  padding: 1em;
+  color: hsl(257, 7%, 63%);
+}
+
+nav button {
+  border: none;
+  background: none;
+  color: hsl(257, 7%, 63%);
+  font-size: 1.5em;
+  padding: 1em;
+  font-family: Poppins;
+}
+
+button.signup {
+  background: hsl(180, 66%, 49%);
+  border-radius: 50px;
+  padding: 0.5em 1em;
+  color: white;
+}
+
+.banner {
+  padding: 2em 0;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  padding: 0 5em 2em 10em;
+  width: 50%;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.hero h1 {
+  font-size: 5em;
+  line-height: 1.4;
+
+  margin-bottom: 0.2em;
+  color: hsl(257, 27%, 26%);
+}
+
+.hero p {
+  font-size: 1.6em;
+  margin-bottom: 2em;
+  color: hsl(257, 7%, 63%);
+}
+
+.hero a {
+  text-decoration: none;
+  font-size: 1.5em;
+  background: hsl(180, 66%, 49%);
+  border-radius: 50px;
+  padding: 0.5em 2em;
+  color: white;
+}
+
+.hero-image {
+  width: 50%;
+}
+
+.hero-image img {
+  object-fit: cover;
+}
+
+.submain {
+  background: hsl(0, 0%, 75%);
+  padding: 2em 10em;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.stats {
+  max-width: 600px;
+  text-align: center;
+  margin: 5em 0;
+}
+
+.stats h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: hsl(257, 27%, 26%);
+}
+
+.stats p {
+  font-size: 1.6em;
+  color: hsl(257, 27%, 26%);
+}
+
+.statistics {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 3em 0;
+}
+
+.break-down {
+  background: white;
+  padding: 3em;
+  width: 35em;
+  height: 25em;
+}
+
+.break-down h3 {
+  font-size: 2.5em;
+  margin: 1em 0;
+  color: hsl(257, 27%, 26%);
+}
+
+.break-down p {
+  font-size: 1.4em;
+  line-height: 1.7;
+  color: hsl(257, 7%, 63%);
+}
+
+.statistics div:nth-child(2) {
+  margin-top: 6em;
+}
+
+.statistics div:nth-child(3) {
+  margin-top: 12em;
+}
+
+.icon {
+  background: hsl(257, 27%, 26%);
+  padding: 1.5em;
+  width: 7.5em;
+  height: 7.5em;
+  border-radius: 50%;
+  margin-top: -7em;
+}
+
+.shortener {
+  width: 100%;
+  background: url(./images/bg-shorten-desktop.svg);
+  background-color: hsl(260, 8%, 14%);
+  padding: 5em;
+  margin-top: -7em;
+}
+
+.shortener input {
+  width: 80%;
+  height: 3em;
+  font-size: 1.8em;
+  border-radius: 0.5em;
+}
+
+.shortener button {
+  width: 12em;
+  height: 3.5em;
+  background: hsl(180, 66%, 49%);
+  color: white;
+  font-size: 1.6em;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: 700;
+}
+
+.boost {
+  background: url(./images/bg-boost-desktop.svg);
+  padding: 5em;
+  background-color: hsl(257, 27%, 26%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boost h4 {
+  font-size: 3.5em;
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+.boost a {
+  text-decoration: none;
+  color: white;
+  background: hsl(180, 66%, 49%);
+  border-radius: 30px;
+  font-size: 1.6em;
+  padding: 1em 3em;
+}
+
+footer {
+  background: hsl(255, 11%, 22%);
+  display: flex;
+  justify-content: space-between;
+  padding: 5em 10em;
+}
+
+footer h5 {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 2em;
+}
+
+footer li {
+  margin: 1em 0;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: hsl(257, 7%, 63%);
+  font-size: 1.4em;
+}
+
+footer img {
+  margin: 0 0.3em;
+}
+
+footer a:hover {
+  color: hsl(180, 66%, 49%);
+}
+
+main {
+  overflow: hidden;
+  width: 100%;
+}
+/* 
+.social:hover {
+  color: hsl(180, 66%, 49%);
+} */
