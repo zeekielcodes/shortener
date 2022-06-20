@@ -12,7 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <title>The Face | Shortly URL shortening API Challenge</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -59,17 +59,25 @@
       </div>
       <div class="submain">
         <div class="shortener">
-          <form>
+          <form onsubmit="return false">
             <input
               type="url"
               name="Shorten"
               id="link"
-              placeholder=" Shorten a link here.."
+              placeholder="Shorten a link here.."
               required
             />
             <button type="submit">Shorten It!</button>
           </form>
+          <span class="error"></span>
         </div>
+        <div class="records"></div>
+        <!-- 
+        <div class="shortened">
+          <span class="input">https://facebbok.com</span>
+          <span class="output">https://biy.lu/f1g2j</span>
+          <button class="clickNcopy" onclick="Copy()">Copy</button>
+        </div> -->
         <div class="stats">
           <h2>Advanced Statistics</h2>
           <p>
@@ -165,5 +173,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">The Face</a>.
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

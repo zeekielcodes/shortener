@@ -174,6 +174,9 @@ button.signup {
   border-radius: 50%;
   margin-top: -7em;
 }
+.records {
+  width: 100%;
+}
 
 .shortener {
   width: 100%;
@@ -188,6 +191,14 @@ button.signup {
   height: 3em;
   font-size: 1.8em;
   border-radius: 0.5em;
+  border: none;
+  outline: none;
+  padding: 0 1em;
+}
+
+.error {
+  font-size: 1.4em;
+  color: white;
 }
 
 .shortener button {
@@ -261,6 +272,36 @@ footer a:hover {
 main {
   overflow: hidden;
   width: 100%;
+}
+
+.shortened {
+  padding: 1em;
+  background: white;
+  border-radius: 0.5em;
+  width: 100%;
+  font-size: 1.5em;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span.input {
+  color: black;
+}
+
+span.output {
+  color: hsl(180, 66%, 49%);
+}
+
+.shortened button {
+  font-size: 1.2em;
+  border: none;
+  background: hsl(180, 66%, 49%);
+  color: white;
+  width: 6em;
+  height: 2em;
+  border-radius: 0.5em;
 }
 /* 
 .social:hover {
