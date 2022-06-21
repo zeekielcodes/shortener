@@ -8,7 +8,7 @@ This is my solution to the [Shortly URL shortening API Challenge challenge on Fr
 
 ### Links
 
-- Solution URL: [Visit solution URL]()
+- Solution URL: [Visit solution URL](https://www.frontendmentor.io/solutions/shortly-url-shortening-api-challenge-hmbgAhVDg6)
 - Live Site URL: [Visit LIVE site](https://thefaceshortener.pages.dev)
 
 ### Built with

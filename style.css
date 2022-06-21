@@ -456,6 +456,9 @@ html {
   font-size: 55%;
 }
 
+.hero p{
+  width: 90%;
+}
 
 .hero a {
   padding: 1em 4em;
