@@ -333,6 +333,15 @@ span.output {
   align-items: center;
   }
 
+  .shortened {
+    display: block;
+  }
+
+  .out-copy {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .hero p {
     max-width: 35em;
    width: 70%;

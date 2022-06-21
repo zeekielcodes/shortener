@@ -33,6 +33,8 @@ document.querySelector("form").addEventListener("submit", async function () {
       .then((result) => {
         var container = document.createElement("div");
         container.setAttribute("class", "shortened");
+        var containBoth = document.createElement("span")
+        containBoth.setAttribute("class", "out-copy")
         var inputValue = document.createElement("span");
         inputValue.textContent = result.long_url;
         inputValue.setAttribute("class", "input");
@@ -45,9 +47,10 @@ document.querySelector("form").addEventListener("submit", async function () {
         copyBtn.setAttribute("onclick", "Copy()");
         container.append(inputValue);
 
-        container.append(outputValue);
+        container.append(containBoth);
 
-        container.append(copyBtn);
+        containBoth.append(outputValue);
+        containBoth.append(copyBtn)
 
         document.querySelector(".records").append(container);
         // console.log(result);
