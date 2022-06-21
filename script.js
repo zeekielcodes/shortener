@@ -61,9 +61,9 @@ document.querySelector("form").addEventListener("submit", async function () {
   document.querySelector("#link").value = "";
 });
 
-function Copy(this) {
+function Copy() {
   // document.querySelector(".shortened")
-  document.querySelectorAll("button.clickNcopy").forEach((buttton) => {
+  // document.querySelectorAll("button.clickNcopy").forEach((buttton) => {
     const shortened = document.querySelector("span.output").textContent;
     const copyButton = document.querySelector(".clickNcopy");
     if (copyButton.innerHTML === "Copy") {
@@ -71,8 +71,9 @@ function Copy(this) {
       copyButton.innerHTML = "Copied!";
       copyButton.style.backgroundColor = "hsl(257, 27%, 26%)";
     }
-  });
-}
+  }
+  // );
+// }
 
 // var Record = document.querySelector(".records").children;
 // let Links = localStorage.getItem("Links");
