@@ -9,7 +9,7 @@ This is my solution to the [Shortly URL shortening API Challenge challenge on Fr
 ### Links
 
 - Solution URL: [Visit solution URL]()
-- Live Site URL: [Visit LIVE site](https://thefaceshortener.netlify.app)
+- Live Site URL: [Visit LIVE site](https://thefaceshortener.pages.dev)
 
 ### Built with
 

@@ -61,12 +61,31 @@ document.querySelector("form").addEventListener("submit", async function () {
   document.querySelector("#link").value = "";
 });
 
-function Copy() {
-  const shortened = document.querySelector("span.output").textContent;
-  const copyButton = document.querySelector(".clickNcopy");
-  if (copyButton.innerHTML === "Copy") {
-    navigator.clipboard.writeText(shortened);
-    copyButton.innerHTML = "Copied!";
-    copyButton.style.backgroundColor = "hsl(257, 27%, 26%)";
-  }
+function Copy(this) {
+  // document.querySelector(".shortened")
+  document.querySelectorAll("button.clickNcopy").forEach((buttton) => {
+    const shortened = document.querySelector("span.output").textContent;
+    const copyButton = document.querySelector(".clickNcopy");
+    if (copyButton.innerHTML === "Copy") {
+      navigator.clipboard.writeText(shortened);
+      copyButton.innerHTML = "Copied!";
+      copyButton.style.backgroundColor = "hsl(257, 27%, 26%)";
+    }
+  });
 }
+
+// var Record = document.querySelector(".records").children;
+// let Links = localStorage.getItem("Links");
+// function checkReecords() {
+//   if (!Links) {
+//     document.querySelector(".records").innerHTML = "You have no records yet1";
+//     localStorage.setItem("Links", Record);
+//   } else {
+//     document.querySelector(
+//       ".records"
+//     ).innerHTML = `<h4>Your Records</h4> ${Reecord}`;
+//     localStorage.setItem("Links", Record);
+//   }
+// }
+
+// checkReecords();

@@ -30,6 +30,10 @@ nav div {
   width: max-content;
 }
 
+.open, hr {
+  display: none;
+}
+
 nav ul li {
   display: inline;
   list-style: none;
@@ -70,9 +74,6 @@ button.signup {
   padding: 0 5em 2em 10em;
   width: 50%;
 
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 
 .hero h1 {
@@ -143,7 +144,8 @@ button.signup {
   background: white;
   padding: 3em;
   width: 35em;
-  height: 25em;
+  height: 30em;
+  margin: 0 1em;
 }
 
 .break-down h3 {
@@ -184,6 +186,7 @@ button.signup {
   background-color: hsl(260, 8%, 14%);
   padding: 5em;
   margin-top: -7em;
+  text-align: center;
 }
 
 .shortener input {
@@ -307,3 +310,231 @@ span.output {
 .social:hover {
   color: hsl(180, 66%, 49%);
 } */
+
+@media (max-width: 768px) {
+  nav {
+    padding: 2em;
+    display: block;
+  }
+
+  .banner {
+    padding: 5em 2em;
+    flex-direction: column-reverse;
+    height: unset;
+  }
+
+  .hero {
+    padding: 4em 0;
+    width: unset;
+    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .hero p {
+    max-width: 35em;
+   width: 70%;
+        
+  }
+
+  .hero-image {
+    width: 100%;
+    margin: 3em 0 0 0;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .submain {
+    padding: 2em;
+  }
+
+  .shortener {
+    padding: 4em 2em;
+    text-align: center;
+  }
+
+  .shortener input {
+    width: 90%;
+    font-size: 1.5em;
+  }
+
+  .shortener button {
+    width: 90%;
+    height: 3em;
+    margin-top: 0.5em;
+  }
+
+  .statistics {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .statistics div:nth-child(2) {
+    margin-top: 6em;
+  }
+
+  .statistics div:nth-child(3) {
+    margin-top: 6em;
+  }
+
+  .boost {
+    text-align: center;
+    padding: 4em 2em;
+  }
+}
+
+@media (max-width:1024px) {
+
+  .stats {
+    padding: 5em;
+  }
+
+  .statistics div:nth-child(2) {
+    margin-top: 6em;
+  }
+
+  .statistics div:nth-child(3) {
+    margin-top: 6em;
+  }
+
+
+  .statistics {
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .break-down {
+   min-width: 100%;
+   height: unset;
+  }
+}
+
+@media (max-width:940px) {
+  .stats {
+    padding: unset;
+  }
+
+  .statistics {
+    padding: unset;
+  }
+
+  footer {
+    padding: 4em;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  footer div {
+    width: 50%;
+    padding: 1em;
+
+  }
+
+
+  footer div:last-child {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width:600px){
+html {
+  font-size: 55%;
+}
+
+
+.hero a {
+  padding: 1em 4em;
+}
+
+nav {
+  padding: 2em 3em;
+  width: 100%;
+}
+
+  footer {
+    padding: 2em;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer div {
+    width: 100%;
+  }
+
+  footer div:first-child,  footer div:last-child {
+    margin: 2em 0;
+  }
+
+  .statistics {
+    margin: 4em 0;
+  }
+
+  .break-down {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+  }
+
+.mobile {
+  display: none;
+    margin-top: 1em;
+    width: 100%;
+    background: hsl(257, 27%, 26%);
+    text-align: center;
+    padding: 3em;
+    font-size: 1.4em;
+    border-radius: 1.5em;
+    font-weight: 700;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 3em 0;
+    width: 100%;
+  }
+
+  nav ul li a {
+    color: white;
+  }
+ 
+
+  nav div {
+    display: block;
+    width: 100%;
+  }
+
+  .logopen {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .open {
+    display: block;
+    height: 2.5em;
+  }
+
+  hr {
+    display: block;
+    color: hsl(257, 7%, 63%);
+  }
+
+  nav button {
+    display: block;
+    width: 100%;
+    margin: unset;
+    margin: .5em 0;
+    color: white;
+    font-weight: 700;
+  }
+}
