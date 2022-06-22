@@ -339,6 +339,7 @@ span.output {
 
   .out-copy {
     display: flex;
+    margin-top: .5em;
     justify-content: space-between;
   }
 
@@ -503,7 +504,7 @@ nav {
     text-align: center;
     padding: 3em;
     font-size: 1.4em;
-    border-radius: 1.5em;
+    border-radius: 1em;
     font-weight: 700;
   }
 
