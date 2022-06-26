@@ -295,6 +295,7 @@ span.input {
 
 span.output {
   color: hsl(180, 66%, 49%);
+  margin-right: 2em;
 }
 
 .shortened button {
@@ -342,6 +343,10 @@ span.output {
     margin-top: .5em;
     justify-content: space-between;
     align-items: center;
+  }
+
+  span.output {
+    margin-right: unset;
   }
 
   .hero p {
