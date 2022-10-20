@@ -20,5 +20,5 @@ This is my solution to the [Shortly URL shortening API Challenge challenge on Fr
 ## Author
 
 - Portfolio - [Ezekiel The Face](https://thefacecodes.web.app)
-- Frontend Mentor - [@iamtheface](https://www.frontendmentor.io/profile/iamtheface)
+- Frontend Mentor - [@thefacecodes](https://www.frontendmentor.io/profile/thefacecodes)
 - Twitter - [@thefacecodes](https://www.twitter.com/thefacecodes)
